@@ -1,6 +1,8 @@
 # CSE15L Lab 2
 **Part 1** <br>
+
 Code for StringServer: <br>
+'''
 import java.io.IOException;
 import java.net.URI;
 
@@ -66,7 +68,7 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-}
+} '''
 
 
 **cd path to directory** <br>
