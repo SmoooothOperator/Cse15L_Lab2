@@ -84,7 +84,15 @@ ScreenShot of end result printed in LocalHost: <br>
 
 
 
-**cd path to directory** <br>
-In the home directory <br>
-since cd changes the directory, a path to the directory will change the current directory to the one in the path. <br>
+**Part 2** <br>
+Path to Private Key: <br>
 ![Image](cd2.png) <br>
+
+Path to Public Key: <br>
+![Image](cd2.png) <br>
+
+Login without password: <br>
+![Image](cd2.png) <br>
+
+**Part 3** <br>
+In the labs of week 2 and week 3, I learned a lot about url, such as the path and query, as well as how a simple search engine or number incrementer functions. I also learned how to log on to a remote machine like the ieng6, as well as how to create files in those servers.
