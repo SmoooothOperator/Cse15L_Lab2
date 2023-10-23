@@ -76,11 +76,11 @@ ScreenShot 1 of addMessage Method: <br>
 The handleRequest Method is called when the addMessage is included in the path. Specifically, if the value of url.getPath(), which is another method, is equal to /add-message, will the code try to add the message. If the if loop begins, the getQuery() method would then split the query, which is the input after ? in the url, will create a new String array called newWord that includes the string after '='. Then, that string is formated with a number in front, such as 1., this number depends on the index of the current last element in the arr array, which the server would print out if no path is added. If the array arr is too small, the method expend capacity is called to expand the array. <br>
 
 ScreenShot 2 of addMessage Method: <br>
-![Image](StringServer_ScreenShot_2.png) <br>
+![Image](StringServer ScreenShot 2.png) <br>
 The handleRequest Method is called when the addMessage is included in the path. Specifically, if the value of url.getPath(), which is another method, is equal to /add-message, will the code try to add the message. If the if loop begins, the getQuery() method would then split the query, which is the input after ? in the url, will create a new String array called newWord that includes the string after '='. Then, that string is formated with a number in front, such as 1., this number depends on the index of the current last element in the arr array, which the server would print out if no path is added. If the array arr is too small, the method expend capacity is called to expand the array. <br>
 
 ScreenShot of end result printed in LocalHost: <br>
-![Image](StringServer_ScreenShot_3.png) <br>
+![Image](StringServer ScreenShot 3.png) <br>
 
 
 
@@ -88,13 +88,13 @@ ScreenShot of end result printed in LocalHost: <br>
 **Part 2** <br>
 
 Path to Private Key: <br>
-![Image](Public_Key.png) <br>
+![Image](Public Key.png) <br>
 
 Path to Public Key: <br>
-![Image](Private_Key.png) <br>
+![Image](Private Key.png) <br>
 
 Login without password: <br>
-![Image](Login_No_Pass.png) <br>
+![Image](Login No Pass.png) <br>
 
 **Part 3** <br>
 
