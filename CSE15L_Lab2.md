@@ -2,7 +2,7 @@
 **Part 1** <br>
 
 Code for StringServer: <br>
-'''
+```
 import java.io.IOException;
 import java.net.URI;
 
@@ -68,7 +68,20 @@ class StringServer {
 
         Server.start(port, new Handler());
     }
-} '''
+}
+```
+ScreenShot 1 of addMessage Method: <br>
+![Image](cd2.png) <br>
+The handleRequest Method is called when the addMessage is included in the path. Specifically, if the value of url.getPath(), which is another method, is equal to /add-message, will the code try to add the message. If the if loop begins, the getQuery() method would then split the query, which is the input after ? in the url, will create a new String array called newWord that includes the string after '='. Then, that string is formated with a number in front, such as 1., this number depends on the index of the current last element in the arr array, which the server would print out if no path is added. If the array arr is too small, the method expend capacity is called to expand the array. <br>
+
+ScreenShot 2 of addMessage Method: <br>
+![Image](cd2.png) <br>
+The handleRequest Method is called when the addMessage is included in the path. Specifically, if the value of url.getPath(), which is another method, is equal to /add-message, will the code try to add the message. If the if loop begins, the getQuery() method would then split the query, which is the input after ? in the url, will create a new String array called newWord that includes the string after '='. Then, that string is formated with a number in front, such as 1., this number depends on the index of the current last element in the arr array, which the server would print out if no path is added. If the array arr is too small, the method expend capacity is called to expand the array. <br>
+
+ScreenShot of end result printed in LocalHost: <br>
+![Image](cd2.png) <br>
+
+
 
 
 **cd path to directory** <br>
