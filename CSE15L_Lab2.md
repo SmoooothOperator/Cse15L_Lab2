@@ -88,11 +88,10 @@ ScreenShot of end result printed in LocalHost: <br>
 **Part 2** <br>
 
 Path to Private Key: <br>
-![Image](Private Key.png) <br>
-
+![Image](Private_Key.png) <br>
 
 Path to Public Key: <br>
-![Image](Public Key.png) <br>
+![Image](Public_Key.png) <br>
 
 Login without password: <br>
 ![Image](Login No Pass.png) <br>
